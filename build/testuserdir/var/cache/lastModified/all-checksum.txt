@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.0.2\platform=1547756500905
+cluster.C:/Users/Денис/Documents/NetBeansProjects/kurs/build/cluster=1548067766071
+cluster.C:/Program Files/NetBeans 8.0.2/platform=1547756500905
+user=1548067766071
+crc=7
+locale=ru_RU
+branding=kurs
+java.version=1.8.0_161
+java.vm.version=25.161-b12

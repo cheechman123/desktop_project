@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="registry.xsd">
+    <components>
+        <product uid="kurs" version="1.0.0.0.0" platforms="generic" status="not-installed" offset="20000" expand="false" built="1547935070798" visible="true" features="">
+            <display-name>
+                <default><![CDATA[kurs]]></default>
+            </display-name>
+            <description>
+                <default><![CDATA[]]></default>
+            </description>
+            <icon size="821" md5="05e2a8559297e66601b0275dfbb75f60">
+                <default-uri>resource:products/kurs/1.0.0.0.0/generic/icon.png</default-uri>
+            </icon>
+            <properties>
+                <property name="installation.location"><![CDATA[$N{install}/kurs]]></property>
+                <property name="installation.location.windows"><![CDATA[$N{install}/kurs]]></property>
+                <property name="installation.location.macosx"><![CDATA[$N{install}/kurs.app]]></property>
+            </properties>
+            <configuration-logic>
+                <file size="43361" md5="40102bd909ee1cc5a7927c8c26843356">
+                    <default-uri>resource:products/kurs/1.0.0.0.0/generic/logic/logic,1.jar</default-uri>
+                </file>
+            </configuration-logic>
+            <installation-data>
+                <file size="14714203" md5="f871bbf7c5ed16daf8a6c5abff8fadf7">
+                    <default-uri>resource:products/kurs/1.0.0.0.0/generic/data/data,1.jar</default-uri>
+                </file>
+            </installation-data>
+            <system-requirements>
+                <disk-space>33872689</disk-space>
+            </system-requirements>
+        </product>
+    </components>
+</registry>
