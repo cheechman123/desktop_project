@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bef595c-5f76-4eb2-8560-2836869ab7be" name="Default" comment="load project">
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/common.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/common.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/engine.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/group.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/group.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/product.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/.common/product.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/build/components/kurs,1.0.0.0.0,generic.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/cache/packaged/kurs,1.0.0.0.0,generic,1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/cache/packaged/kurs,1.0.0.0.0,generic,1.jar.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/data/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/data/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/data/icon48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/ConfigurationLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/kurs.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/kurs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/license.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/wizard.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/wizard/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/components/products/helloworld/src/org/mycompany/wizard/panels/HelloWorldPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/data/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/native/launcher/unix/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/native/launcher/windows/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/utils/applications/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/utils/applications/NetBeansRCPUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/actions/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/actions/InitializeAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/WelcomePanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/sequences/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/components/sequences/MainSequence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/wizard-components.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/mycompany/installer/wizard/wizard-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/engine/src/org/netbeans/installer/utils/system/launchers/impl/dockicon.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/infra/build/engine/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/infra/build/engine/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/infra/build/products/helloworld/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/ext/infra/build/products/helloworld/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/common.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/common.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/engine.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/group.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/group.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/product.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/.common/product.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/environment.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/environment.tmp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/data/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/data/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/data/icon48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/ConfigurationLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/kurs.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/kurs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/license.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/wizard.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/wizard/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/components/products/helloworld/src/org/mycompany/wizard/panels/HelloWorldPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/data/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/native/launcher/unix/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/native/launcher/windows/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/utils/applications/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/utils/applications/NetBeansRCPUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/actions/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/actions/InitializeAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/WelcomePanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/sequences/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/components/sequences/MainSequence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/wizard-components.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/mycompany/installer/wizard/wizard-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/engine/src/org/netbeans/installer/utils/system/launchers/impl/dockicon.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/ApplicationAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/ApplicationBeanInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/ApplicationEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/ApplicationListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/com/apple/eawt/CocoaComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/data/engine.list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/data/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/data/registry.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/cleaner/unix/cleaner.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/cleaner/windows/cleaner.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/linux/linux-amd64.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/linux/linux.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/macosx/macosx.dylib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/solaris-sparc/solaris-sparc.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/solaris-sparc/solaris-sparcv9.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/solaris-x86/solaris-amd64.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/solaris-x86/solaris-x86.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/windows/windows-ia64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/windows/windows-x64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/jnilib/windows/windows-x86.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/launcher/unix/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/launcher/unix/launcher.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/launcher/windows/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/native/launcher/windows/nlw.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/utils/applications/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/utils/applications/NetBeansRCPUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/utils/applications/NetBeansRCPUtils$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/utils/applications/NetBeansRCPUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/actions/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/actions/InitializeAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel$PreInstallSummaryPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel$PreInstallSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel$PreInstallSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/WelcomePanel$WelcomePanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/WelcomePanel$WelcomePanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/WelcomePanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/resources/welcome-left-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/panels/resources/welcome-left-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/sequences/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/components/sequences/MainSequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/wizard-components.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/wizard-description-background-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/wizard-description-background-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/mycompany/installer/wizard/wizard-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/Installer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/DownloadConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/DownloadListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/DownloadManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/DownloadMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/DownloadProgress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/Pumping$Section.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/Pumping$State.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/Pumping.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/PumpingsQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/MyProxy$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/MyProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/MyProxySelector$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/MyProxySelector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/MyProxyType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/URLConnector$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/connector/URLConnector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/LoadFactor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/Process.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/ProcessDispatcher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/RoundRobinDispatcher$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/RoundRobinDispatcher$DispatcherWorker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/RoundRobinDispatcher$Terminator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/RoundRobinDispatcher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/Worker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/dispatcher/impl/WorkersPool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/ChannelUtil$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/ChannelUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/Pump.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/PumpingImpl$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/PumpingImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/PumpingUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/SectionImpl$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/impl/SectionImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/queue/DispatchedQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/queue/QueueBase$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/queue/QueueBase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/EmptyQueueListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/FileProvider$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/FileProvider$MyListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/FileProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/PersistentCache$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/PersistentCache$CacheEntry$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/PersistentCache$CacheEntry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/services/PersistentCache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/ui/ProxySettingsDialog$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/ui/ProxySettingsDialog$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/ui/ProxySettingsDialog$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/downloader/ui/ProxySettingsDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/Registry$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/Registry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/RegistryNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/RegistryType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/Group.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/Product$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/Product$InstallationPhase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/Product.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/ProductConfigurationLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/components/StatusInterface.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/default-registry.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/default-state-file.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/dependencies/Conflict.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/dependencies/InstallAfter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/dependencies/Requirement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/AndFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/GroupFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/OrFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/ProductFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/RegistryFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/SubTreeFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/filters/TrueFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/registry.xsd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/product/state-file.xsd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/BrowserUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/BrowserUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/DateUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/EngineUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/ErrorManager$ExceptionHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/ErrorManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/FileProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/FileUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/LogManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/NetworkUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/ResourceUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/SecurityUtils$CertificateAcceptanceStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/SecurityUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/StreamUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/StringUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/SystemUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/SystemUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$LookAndFeelType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils$MessageType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UiUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UninstallUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UninstallUtils$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/UninstallUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/XMLUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/applications/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/applications/JavaUtils$JavaInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/applications/JavaUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/applications/TestJDK.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIArgumentsList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIOptionOneArgument.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIOptionTwoArguments.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/CLIOptionZeroArguments.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/BundlePropertiesOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/CreateBundleOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/ForceInstallOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/ForceUninstallOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/IgnoreLockOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/LocaleOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/LookAndFeelOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/NoSpaceCheckOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/PlatformOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/PropertiesOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/RecordOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/RegistryOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/SilentOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/StateOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/SuggestInstallOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/SuggestUninstallOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/TargetOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/cli/options/UserdirOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/CLIOptionException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/DownloadException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/FinalizationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/HTTPException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/IgnoreAttributeException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/InitializationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/InstallationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/NativeException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/NotImplementedException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/ParseException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/UnexpectedExceptionError.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/UninstallationException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/UnrecognizedObjectException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/UnresolvedDependencyException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/UnsupportedActionException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/exceptions/XMLException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ApplicationDescriptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Context.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Dependency.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/DependencyType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/DetailedStatus$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/DetailedStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/EngineResources.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/EnvironmentScope.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ErrorLevel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ExecutionMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ExecutionResults.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ExtendedUri.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Feature.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/FileEntry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/FilesList$FilesListHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/FilesList$FilesListIterator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/FilesList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/FinishHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/JavaCompatibleProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/MutualHashMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/MutualMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/NbiClassLoader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/NbiProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/NbiThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Pair.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Platform.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/PlatformConstants.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/PropertyContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/RemovalMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Shortcut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/ShortcutLocationType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Status$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Status.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Text$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Text$ContentType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Text.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/UiMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Version$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Version$VersionDistance.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/Version.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiButton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiCheckBox.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiComboBox.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiDialog$NbiDialogContentPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiDirectoryChooser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiFileChooser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiFrame$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiFrame$NbiFrameContentPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiFrame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiLabel$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiLabel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiPasswordField.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiProgressBar.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiRadioButton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiScrollPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiSeparator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTabbedPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTextDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTextField.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTextPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTextsDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTree.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableColumnCellRenderer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableColumnRenderer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableModel$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableModel$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableModel$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/NbiTreeTableModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/helper/swing/frame-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/CompositeProgress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/Progress$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/Progress$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/Progress.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/progress/ProgressListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/LinuxNativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/MacOsNativeUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/MacOsNativeUtils$PropertyListEntityResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/MacOsNativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/NativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/NativeUtilsFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/SolarisNativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/UnixNativeUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/UnixNativeUtils$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/UnixNativeUtils$FileAccessMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/UnixNativeUtils$UnixProcessOnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/UnixNativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/WindowsNativeUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/WindowsNativeUtils$FileExtensionKey.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/WindowsNativeUtils$SystemApplicationKey.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/WindowsNativeUtils$WindowsProcessOnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/WindowsNativeUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/cleaner/JavaOnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/cleaner/OnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/cleaner/ProcessOnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/cleaner/SystemPropertyOnExitCleanerHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/Launcher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherProperties$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherResource$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherResource$Type.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/LauncherResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/CommandLauncher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/CommonLauncher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/ExeLauncher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/JarLauncher$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/JarLauncher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/ShLauncher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/launchers/impl/dockicon.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/BundlePropertyResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/EnvironmentVariableResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/FieldResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/MethodResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/NameResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/ResourceResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/StringResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/StringResolverUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/resolver/SystemPropertyResolver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/shortcut/FileShortcut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/shortcut/InternetShortcut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/shortcut/LocationType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/shortcut/Shortcut.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/unix/shell/BourneShell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/unix/shell/CShell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/unix/shell/KornShell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/unix/shell/Shell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/unix/shell/TCShell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/FileExtension.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/PerceivedType$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/PerceivedType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/SystemApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/system/windows/WindowsRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/xml/DomExternalizable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/xml/DomUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/xml/reformat.xslt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/xml/visitors/DomVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/utils/xml/visitors/RecursiveDomVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/Wizard$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/Wizard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardAction$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardAction$WizardActionSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardAction$WizardActionSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardAction$WizardActionUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardComponent$WizardComponentSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardComponent$WizardComponentUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardPanel$WizardPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardPanel$WizardPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/WizardSequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/CacheEngineAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/CreateBundleAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/CreateMacOSAppLauncherAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/CreateNativeLauncherAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/DownloadConfigurationLogicAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/DownloadInstallationDataAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/FinalizeRegistryAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/InitializeRegistryAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/InstallAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/SearchForJavaAction$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/SearchForJavaAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/SetInstallationLocationAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/actions/UninstallAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$ApplicationLocationPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$ApplicationLocationPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$ApplicationLocationPanelSwingUi$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$ApplicationLocationPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$ApplicationLocationPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationValidator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationsComboBoxEditor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationsComboBoxEditor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationsComboBoxModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationsListCellRenderer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel$LocationsListModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ApplicationLocationPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsSelectionPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsSelectionPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsSelectionPanelSwingUi$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsSelectionPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsSelectionPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeCell$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeCell$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeCell$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeCell$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeCell.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel$ComponentsTreeModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ComponentsSelectionPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/DestinationPanel$DestinationPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/DestinationPanel$DestinationPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/DestinationPanel$DestinationPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/DestinationPanel$DestinationPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/DestinationPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ErrorMessagePanel$ErrorMessagePanelSwingUi$ValidatingDocumentListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ErrorMessagePanel$ErrorMessagePanelSwingUi$ValidatingThread.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ErrorMessagePanel$ErrorMessagePanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ErrorMessagePanel$ErrorMessagePanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/ErrorMessagePanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/JdkLocationPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel$LicensesPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel$LicensesPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel$LicensesPanelSwingUi$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel$LicensesPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel$LicensesPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/LicensesPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostCreateBundleSummaryPanel$PostCreateBundleSummaryPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostCreateBundleSummaryPanel$PostCreateBundleSummaryPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostCreateBundleSummaryPanel$PostCreateBundleSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostCreateBundleSummaryPanel$PostCreateBundleSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostCreateBundleSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel$PostInstallSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PostInstallSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreCreateBundleSummaryPanel$PreCreateBundleSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreCreateBundleSummaryPanel$PreCreateBundleSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreCreateBundleSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreInstallSummaryPanel$PreInstallSummaryPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreInstallSummaryPanel$PreInstallSummaryPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/PreInstallSummaryPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/TextPanel$TextPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/TextPanel$TextPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/TextPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/empty.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/panels/warning.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/sequences/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/sequences/CreateBundleSequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/sequences/MainSequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/components/sequences/ProductWizardSequence.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SilentContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer$WizardFrameContentPane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/SwingFrameContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/containers/WizardContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/ui/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/ui/SwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/ui/WizardUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog$InstallationDetailsTreeColumnCellRenderer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog$InstallationDetailsTreeModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog$InstallationDetailsTreeTableModel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog$InstallationStatusCellRenderer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationDetailsDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/utils/InstallationLogDialog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/wizard-components.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/build/classes/org/netbeans/installer/wizard/wizard-components.xsd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/dist/nbi-engine.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/data/engine.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/native/launcher/unix/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/native/launcher/windows/i18n/launcher.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/utils/applications/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/utils/applications/NetBeansRCPUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/actions/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/actions/InitializeAction.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/PostInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/PreInstallSummaryPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/WelcomePanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-bottom.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/panels/resources/welcome-left-top.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/sequences/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/components/sequences/MainSequence.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/wizard-components.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/wizard-description-background-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/mycompany/installer/wizard/wizard-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/build/ext/engine/src/org/netbeans/installer/utils/system/launchers/impl/dockicon.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/engine/dist/nbi-engine.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/ConfigurationLogic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/kurs.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/kurs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/license.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/wizard.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/wizard/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/wizard/panels/HelloWorldPanel$HelloWorldPanelSwingUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/wizard/panels/HelloWorldPanel$HelloWorldPanelUi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/build/classes/org/mycompany/wizard/panels/HelloWorldPanel.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/data/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/data/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/data/icon48.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/dist/kurs,logic.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/manifest.mf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/nbproject/build-impl.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/nbproject/genfiles.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/nbproject/project.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/nbproject/project.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/ConfigurationLogic.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/kurs.icns" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/kurs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/license.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/wizard.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/wizard/panels/Bundle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/ext/components/products/helloworld/src/org/mycompany/wizard/panels/HelloWorldPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/package/products/kurs/1.0.0.0.0/generic/data/data,1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/package/products/kurs/1.0.0.0.0/generic/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/package/products/kurs/1.0.0.0.0/generic/logic/logic,1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/nbi_all/ext/infra/build/products/helloworld/build/package/registry.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/template.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/installer/tmpl.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/1.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/2.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/3.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/4.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/5.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/6.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/7.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/doc/8.docx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java" afterPath="$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="atmTopComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14708#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="445" />
+    <option name="y" value="5" />
+    <option name="width" value="925" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="nbproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mybank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mybank" type="462c0819:PsiDirectoryNode" />
+              <item name="atm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kurs_ATM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kurs_ATM" type="462c0819:PsiDirectoryNode" />
+              <item name="myATM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mybank" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="178" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bef595c-5f76-4eb2-8560-2836869ab7be" name="Default" comment="" />
+      <created>1548087244187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548087244187</updated>
+      <workItem from="1548087246461" duration="127000" />
+      <workItem from="1548180762788" duration="1935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2062000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="445" y="5" width="925" height="728" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34763476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="load project" />
+    <option name="LAST_COMMIT_MESSAGE" value="load project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14708#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myATM/src/com/mybank/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myATM/src/com/mybank/atm/atmTopComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14708#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

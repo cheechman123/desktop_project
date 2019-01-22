@@ -4,11 +4,13 @@
  * and open the template in the editor.
  */
 package com.mybank.atm;
+
 import com.mybank.domain.*;
 import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
+
 import org.netbeans.api.settings.ConvertAsProperties;
 import org.openide.awt.ActionID;
 import org.openide.awt.ActionReference;
